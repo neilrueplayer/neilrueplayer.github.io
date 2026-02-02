@@ -29,7 +29,9 @@
 
 
 <meta property="og:title" content="Teaching" />
-<meta property="og:description" content="Courses Details coming soon." />
+<meta property="og:description" content="Teaching &amp; Course Notes ⚠️ IMPORTANT NOTICE TO STUDENTS
+While my lectures are delivered in English, please note that all written materials (lecture notes, polycopiés, exam papers) are authored exclusively in French.
+I maintain this policy not out of nostalgia, but necessity. French is the language of Bourbaki, of Grothendieck, and of Cartan. It possesses a topological rigidity and a structural nuance that modern globalized English lacks. If you wish to understand the geometry of latent spaces, you must first cross the barrier of language." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/teaching/" /><meta property="article:section" content="" />
 
@@ -37,7 +39,9 @@
 
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Teaching"/>
-<meta name="twitter:description" content="Courses Details coming soon."/>
+<meta name="twitter:description" content="Teaching &amp; Course Notes ⚠️ IMPORTANT NOTICE TO STUDENTS
+While my lectures are delivered in English, please note that all written materials (lecture notes, polycopiés, exam papers) are authored exclusively in French.
+I maintain this policy not out of nostalgia, but necessity. French is the language of Bourbaki, of Grothendieck, and of Cartan. It possesses a topological rigidity and a structural nuance that modern globalized English lacks. If you wish to understand the geometry of latent spaces, you must first cross the barrier of language."/>
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -280,8 +284,50 @@ Teaching | Neil Ruplayer | Chercheur
           </div>
           
           <article class="page-content  p-2">
-          <h2 id="courses">Courses</h2>
-<p>Details coming soon.</p>
+          <h1 id="teaching--course-notes">Teaching &amp; Course Notes</h1>
+<blockquote>
+<p><strong>⚠️ IMPORTANT NOTICE TO STUDENTS</strong></p>
+<p>While my lectures are delivered in <strong>English</strong>, please note that <strong>all written materials (lecture notes, <em>polycopiés</em>, exam papers) are authored exclusively in French.</strong></p>
+<p>I maintain this policy not out of nostalgia, but necessity. French is the language of Bourbaki, of Grothendieck, and of Cartan. It possesses a topological rigidity and a structural nuance that modern globalized English lacks. If you wish to understand the geometry of latent spaces, you must first cross the barrier of language. Consider it your first filter.</p>
+<p><em>Dictionaries are available at the central library.</em></p>
+</blockquote>
+<hr>
+<h3 id="master-1-introduction-to-homotopy-type-theory-hott">[Master 1] Introduction to Homotopy Type Theory (HoTT)</h3>
+<p><strong>Document:</strong> <em>Théorie Homotopique des Types : Fondements Univalents pour l&rsquo;Informaticien</em></p>
+<p>We reconstruct mathematics not on the shifting sands of set theory, but on the solid ground of types. Equality is treated not as a proposition, but as a <strong>Path</strong>.</p>
+<ul>
+<li><strong>Core topics:</strong> $\infty$-groupoids, Path Induction (J-rule), The Univalence Axiom.</li>
+<li><strong>Tools:</strong> The <strong>Lean 4</strong> theorem prover.</li>
+<li><strong>Download:</strong> [<code>hott_poly_2026.pdf</code>] (French, 175 pp.)</li>
+</ul>
+<h3 id="master-2-homotopic-foundations-of-reasoning-architectures">[Master 2] Homotopic Foundations of Reasoning Architectures</h3>
+<p><strong>Document:</strong> <em>Fondements Homotopiques des Architectures de Raisonnement</em></p>
+<p>We apply category theory to Generative AI. We analyze Large Language Models (LLMs) and Retrieval Augmented Generation (RAG) through the lens of <strong>Sheaf Theory</strong>.</p>
+<ul>
+<li><strong>Core theory:</strong> The &ldquo;Chain-of-Thought&rdquo; is formalized as path induction. A &ldquo;hallucination&rdquo; is modeled as a topological obstruction ($H^1 \neq 0$) in the fiber bundle of knowledge.</li>
+<li><strong>Download:</strong> [<code>rag_topos_2026.pdf</code>] (French, 310 pp.)</li>
+</ul>
+<h3 id="master-1-geometric-vision-via-clifford-algebras">[Master 1] Geometric Vision via Clifford Algebras</h3>
+<p><strong>Document:</strong> <em>Vision par Ordinateur : Des Fondations à l&rsquo;Apprentissage Profond</em></p>
+<p><strong>Strict Prohibition:</strong> The use of $3 \times 3$ rotation matrices is forbidden in this course.
+We rebuild Computer Vision using <strong>Projective Geometric Algebra (PGA)</strong>. We treat the camera not as a matrix, but as a projector in a projective space, using Rotors and Motors for rigid body transformations. Includes 3D Gaussian Splatting derivations.</p>
+<ul>
+<li><strong>Download:</strong> [<code>vision_ga_final.pdf</code>] (French, 750 pp.)</li>
+</ul>
+<h3 id="master-1-earth-observation-from-sensor-to-digital-twin">[Master 1] Earth Observation: From Sensor to Digital Twin</h3>
+<p><strong>Document:</strong> <em>Télédétection Spatiale : Du capteur à l&rsquo;application</em></p>
+<p>A physics-first approach to remote sensing. We do not simply process images; we solve the <strong>Radiative Transfer Equation</strong>.</p>
+<ul>
+<li><strong>Core topics:</strong> Polarization (Stokes Vectors), Interferometric SAR, and inverting physical models using Physics-Informed Neural Networks (PINNs).</li>
+<li><strong>Download:</strong> [<code>eo_physics.pdf</code>] (French, 1032 pp.)</li>
+</ul>
+<h3 id="undergraduate-l3-category-theory-and-poetry">[Undergraduate L3] Category Theory and Poetry</h3>
+<p><strong>Document:</strong> <em>Théorie des catégories et poésie</em></p>
+<p><em>Optional Evening Seminar.</em>
+An exploration of the Yoneda Lemma as the ultimate structure of metaphor. We read Mallarmé alongside Mac Lane.</p>
+<ul>
+<li><strong>Material:</strong> Handwritten notes distributed in class.</li>
+</ul>
 
           </article>
         </div>
@@ -296,7 +342,15 @@ Teaching | Neil Ruplayer | Chercheur
               <div class="toc-content">
                 <nav id="TableOfContents">
   <ul>
-    <li><a href="#courses">Courses</a></li>
+    <li>
+      <ul>
+        <li><a href="#master-1-introduction-to-homotopy-type-theory-hott">[Master 1] Introduction to Homotopy Type Theory (HoTT)</a></li>
+        <li><a href="#master-2-homotopic-foundations-of-reasoning-architectures">[Master 2] Homotopic Foundations of Reasoning Architectures</a></li>
+        <li><a href="#master-1-geometric-vision-via-clifford-algebras">[Master 1] Geometric Vision via Clifford Algebras</a></li>
+        <li><a href="#master-1-earth-observation-from-sensor-to-digital-twin">[Master 1] Earth Observation: From Sensor to Digital Twin</a></li>
+        <li><a href="#undergraduate-l3-category-theory-and-poetry">[Undergraduate L3] Category Theory and Poetry</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
               </div>
