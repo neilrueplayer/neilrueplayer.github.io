@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Neil Ruplayer | Chercheur</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Neil Ruplayer | Chercheur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Medium</title>
+      <link>http://localhost:1313/tags/medium/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/medium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recherche</title>
+      <link>http://localhost:1313/tags/recherche/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/recherche/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

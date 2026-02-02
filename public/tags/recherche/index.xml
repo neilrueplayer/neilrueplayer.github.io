@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recherche on Neil Ruplayer | Chercheur</title>
+    <link>http://localhost:1313/tags/recherche/</link>
+    <description>Recent content in Recherche on Neil Ruplayer | Chercheur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/recherche/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Geometry of Meaning - Episode 1</title>
+      <link>http://localhost:1313/posts/geometry-of-meaning-ep1/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/geometry-of-meaning-ep1/</guid>
+      <description>Published on Medium. Click here to read.</description>
+    </item>
+    <item>
+      <title>The Geometry of Meaning - Episode 1</title>
+      <link>http://localhost:1313/posts/geometry-of-meaning-ep2/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/geometry-of-meaning-ep2/</guid>
+      <description>Published on Medium. Click here to read.</description>
+    </item>
+    <item>
+      <title>The Geometry of Meaning - Episode 1</title>
+      <link>http://localhost:1313/posts/geometry-of-meaning-ep3/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/geometry-of-meaning-ep3/</guid>
+      <description>Published on Medium. Click here to read.</description>
+    </item>
+  </channel>
+</rss>

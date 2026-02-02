@@ -4,17 +4,25 @@ theme = "hugo-profile"
 
 [params]
   # Biographie courte
-  description = "Chercheur en [Ton Domaine]. Spécialisé en [Sujet A] et [Sujet B]. Mes travaux portent sur l'analyse de [X] au sein du laboratoire [Nom]. Passionné par la transmission des savoirs et l'open science."
+  title = "Neil Rueplayer, PhD"
+  subtitle = "Associate Professor | Department of Computer Applications & Mathematical Sciences"
+  # Cette description courte apparaît souvent sous le nom
+  description = "North-Eastern Hill University (NEHU), Shillong, India"
+#  custom_js = []
+#  custom_css = []
+#  showTableOfContents = false
   
+  [params.section]
+    # Désactive les sections qui pourraient chercher des données inexistantes
+    about = true
+    experience = false
+    education = false
+    projects = false
   # Liens réseaux sociaux (optionnel)
-  #[[params.social]]
-  #  name = "LinkedIn"
-  #  icon = "fab fa-linkedin"
-  #  url = "https://linkedin.com/in/ton-profil"
   [[params.social]]
     name = "Medium"
     icon = "fab fa-medium"
-    url = "https://medium.com/@ton-user"
+    url = "https://medium.com/@NeilRueplayer"
 
 [[menu.main]]
   name = "Teaching"
@@ -28,3 +36,7 @@ theme = "hugo-profile"
   name = "Blog"
   url = "/posts/"
   weight = 3
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
