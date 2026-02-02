@@ -1,7 +1,6 @@
 ---
 title: "Neil Rueplayer"
 description: "Neil Rueplayer, PhD"
-url: "/"
 layout: "about" 
 ---
 
