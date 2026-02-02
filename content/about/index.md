@@ -2,6 +2,7 @@
 title: "Neil Rueplayer"
 description: "Neil Rueplayer, PhD"
 layout: "about" 
+url: "/"
 ---
 
 > "The unknown thing to be known appeared to me as some stretch of earth or hard marl, resisting penetration... the sea advances insensibly in silence, nothing seems to happen, nothing moves, and the water is so far off you can hardly hear it... yet it finally surrounds the resistant substance." — A. Grothendieck
