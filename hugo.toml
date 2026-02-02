@@ -1,0 +1,30 @@
+baseURL = "https://neilrueplayer.github.io/"
+title = "Neil Ruplayer | Chercheur"
+theme = "hugo-profile"
+
+[params]
+  # Biographie courte
+  description = "Chercheur en [Ton Domaine]. Spécialisé en [Sujet A] et [Sujet B]. Mes travaux portent sur l'analyse de [X] au sein du laboratoire [Nom]. Passionné par la transmission des savoirs et l'open science."
+  
+  # Liens réseaux sociaux (optionnel)
+  #[[params.social]]
+  #  name = "LinkedIn"
+  #  icon = "fab fa-linkedin"
+  #  url = "https://linkedin.com/in/ton-profil"
+  [[params.social]]
+    name = "Medium"
+    icon = "fab fa-medium"
+    url = "https://medium.com/@ton-user"
+
+[[menu.main]]
+  name = "Teaching"
+  url = "/teaching/"
+  weight = 1
+[[menu.main]]
+  name = "Publications"
+  url = "/publications/"
+  weight = 2
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 3
